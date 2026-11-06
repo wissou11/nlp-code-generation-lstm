@@ -1,0 +1,34 @@
+{
+  "epochs": 30,
+  "batch_size": 32,
+  "lr": 0.001,
+  "patience": 5,
+  "seed": 42,
+  "overfit": 0,
+  "attention": true,
+  "bidirectional": true,
+  "init_checkpoint": null,
+  "mode": "bi_attention",
+  "variant": "bi_attention",
+  "model_config": {
+    "source_vocab_size": 97,
+    "target_vocab_size": 51,
+    "embedding_dim": 128,
+    "hidden_dim": 256,
+    "attention": true,
+    "bidirectional": true
+  },
+  "trainable_parameters": 1085235,
+  "teacher_forcing_ratio": 1.0,
+  "gradient_clip_norm": 1.0,
+  "device": "cpu",
+  "torch_version": "2.14.1+cu130",
+  "train_examples": 2000,
+  "evaluation_examples": 500,
+  "evaluation_label": "validation_loss",
+  "file_hashes": {
+    "train.jsonl": "f7903a726023c522fcbd8dadb0d974c7886afb010f4694b88f39e86b2fe24dd1",
+    "vocabularies.json": "c015a00c78e1f92cbaad6956b148a9aa6d71702feeacb5a5a792b6b4081cf962",
+    "validation_wording.jsonl": "33632b4ed5f711b66f063ab1df4231532b4c1e5041c3e9507721196dae34a5d5"
+  }
+}

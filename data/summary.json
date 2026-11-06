@@ -1,0 +1,63 @@
+{
+  "seed": 42,
+  "unique_tasks": 298,
+  "unique_program_structures": 28,
+  "reference_test_checks": 1496,
+  "held_out_compositions": [
+    [
+      "count",
+      "le"
+    ],
+    [
+      "filter",
+      "ne"
+    ],
+    [
+      "sum",
+      "gt"
+    ]
+  ],
+  "splits": {
+    "train": {
+      "examples": 2000,
+      "unique_tasks": 250,
+      "families": {
+        "lists": 1920,
+        "condition": 16,
+        "arithmetic": 32,
+        "strings": 32
+      },
+      "sha256": "48c0c025b12724f8673ad4e09fb36a749ec45cb137ab6d87889031488ff15cf2"
+    },
+    "validation_wording": {
+      "examples": 500,
+      "unique_tasks": 250,
+      "families": {
+        "lists": 480,
+        "arithmetic": 8,
+        "condition": 4,
+        "strings": 8
+      },
+      "sha256": "88e2a7f8a675a23e6d4b0714a9f863902151529b4220144666c7ce71e184f835"
+    },
+    "test_wording": {
+      "examples": 500,
+      "unique_tasks": 250,
+      "families": {
+        "lists": 480,
+        "arithmetic": 8,
+        "condition": 4,
+        "strings": 8
+      },
+      "sha256": "e0fe0d5e2536e55ebde1b0d2cb9ba633c73c3d4bdb541d027de9a44e95b200c9"
+    },
+    "test_composition": {
+      "examples": 96,
+      "unique_tasks": 48,
+      "families": {
+        "lists": 96
+      },
+      "sha256": "fda17d16aa9c69a9b6a2f78f2adc7708379937e9db2e22915f9510ba6c71e282"
+    }
+  }
+}
