@@ -1,4 +1,5 @@
 # Python code generation with LSTM encoder–decoders
+   **Live demo:** [Instruction → Python · Streamlit](https://nlp-code-generation-lstm-2qwfajbrxgh3grx39saeie.streamlit.app/)
 
 NLP course project: generating a short Python function from an English instruction
 with encoder–decoder models implemented and trained from scratch in PyTorch. No
